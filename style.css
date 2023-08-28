@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(194, 255, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.Main {
+    background-color: red;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid rgb(88, 202, 255);
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(88, 202, 255);
+    color: white;
+    cursor: pointer;
+}
+
+button#copy {
+    background-color: rgb(255, 128, 0);
+}
+
+button:hover {
+    background-color: rgb(55, 163, 206);
+}
+
+#short-url {
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(6, 25, 25);
+}
+
+@media (max-width: 600px) {
+    .Main {
+        width: 90%;
+    }
+}
+.url{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(6, 25, 25);
+    
+}
